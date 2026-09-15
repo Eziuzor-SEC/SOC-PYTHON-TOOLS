@@ -1,7 +1,7 @@
 # IOC Checker - Basic IP Reputation Tool
 # Author: Eziuzor Michael Ekene (Loz)
 # Description: Takes an IP address as input and checks it against
-# a list of known malicious IPs. Returns ALERT or CLEAN verdict.
+# A list of known malicious IPs. Returns ALERT or CLEAN verdict.
 # Use case: SOC tier 1 triage, manual IOC verification
 
 malicious_ips = ["185.220.101.5", "45.155.205.233", "194.26.29.156"] 
