@@ -3,7 +3,7 @@
 A collection of Python scripts built for SOC automation, IOC checking, and threat detection.
 
 ## About
-Built by Eziuzor Michael Ekene (Loz) — SOC Analyst and Blue Team Practitioner based in Lagos, Nigeria. These tools demonstrate practical Python application in real SOC workflows.
+Built by Eziuzor Michael Ekene (Loz). SOC Analyst and Blue Team Practitioner based in Lagos, Nigeria. These tools demonstrate practical Python application in real SOC workflows.
 
 ## Tools
 
@@ -20,4 +20,4 @@ Built by Eziuzor Michael Ekene (Loz) — SOC Analyst and Blue Team Practitioner 
 - Continuous loop for analyst workflow
 
 ## Roadmap
-More tools coming — log parser, brute force detector, alert enrichment script.
+More tools coming. log parser, brute force detector, alert enrichment script.
