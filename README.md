@@ -19,5 +19,11 @@ Built by Eziuzor Michael Ekene. SOC Analyst and Blue Team Practitioner based in 
 - Input sanitisation using string methods
 - Continuous loop for analyst workflow
 
+### 2. Log Parser - Brute Force Detector
+**File:** `log_parser.py`  
+**What it does:** Reads a log file, counts failed login attempts per IP address, and flags any IP that crosses a defined threshold as a possible brute force attack.  
+**SOC use case:** Automated brute force detection, log triage, reducing manual log review time.  
+**Concepts used:** File reading, for loops, dictionaries, conditions, string methods, try/except error handling.
+
 ## Roadmap
 More tools coming. log parser, brute force detector, alert enrichment script.
