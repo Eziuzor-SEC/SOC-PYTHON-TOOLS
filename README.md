@@ -25,5 +25,11 @@ Built by Eziuzor Michael Ekene. SOC Analyst and Blue Team Practitioner based in 
 **SOC use case:** Automated brute force detection, log triage, reducing manual log review time.  
 **Concepts used:** File reading, for loops, dictionaries, conditions, string methods, try/except error handling.
 
+### 3. Threat Intelligence Aggregator
+**File:** `threat_intel.py`  
+**What it does:** A Python class that queries VirusTotal and AbuseIPDB APIs for any IP address, calculates a composite risk score out of 100, and generates a structured investigation report saved to a text file.  
+**SOC use case:** IOC enrichment, alert triage, automated threat investigation during incident response.  
+**Concepts used:** Object oriented programming, API integration, JSON parsing, file writing, environment variables, error handling.
+
 ## Roadmap
 More tools coming. log parser, brute force detector, alert enrichment script.
