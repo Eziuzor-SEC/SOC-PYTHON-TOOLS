@@ -31,5 +31,11 @@ Built by Eziuzor Michael Ekene. SOC Analyst and Blue Team Practitioner based in 
 **SOC use case:** IOC enrichment, alert triage, automated threat investigation during incident response.  
 **Concepts used:** Object oriented programming, API integration, JSON parsing, file writing, environment variables, error handling.
 
+### 4. Automated Alert Triage Bot
+**File:** `triage_bot.py`  
+**What it does:** Reads a JSON alert queue, enriches each IP using the ThreatIntel class, calculates a combined severity score using threat intel results and alert type weights, sorts alerts by priority, and generates a complete triage report saved to a file.  
+**SOC use case:** Tier 1 SOC automation, alert queue prioritisation, reducing manual triage time.  
+**Concepts used:** JSON parsing, class importing, functions, sorting, f-strings, file writing, error handling.
+
 ## Roadmap
-More tools coming. log parser, brute force detector, alert enrichment script.
+Portfolio complete. Four production-ready SOC automation tools demonstrating Python scripting, API integration, object oriented programming, and end-to-end alert triage automation.
