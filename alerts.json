@@ -1,0 +1,37 @@
+[
+    {
+        "alert_id": "ALT001",
+        "timestamp": "2026-09-22 08:15:00",
+        "ip": "185.220.101.5",
+        "alert_type": "Brute Force",
+        "description": "Multiple failed login attempts detected"
+    },
+    {
+        "alert_id": "ALT002",
+        "timestamp": "2026-09-22 08:22:00",
+        "ip": "8.8.8.8",
+        "alert_type": "Port Scan",
+        "description": "Sequential port scanning detected"
+    },
+    {
+        "alert_id": "ALT003",
+        "timestamp": "2026-09-22 08:45:00",
+        "ip": "45.155.205.233",
+        "alert_type": "Suspicious Outbound",
+        "description": "Unusual outbound traffic volume detected"
+    },
+    {
+        "alert_id": "ALT004",
+        "timestamp": "2026-09-22 09:01:00",
+        "ip": "194.26.29.156",
+        "alert_type": "Malware C2",
+        "description": "Possible command and control communication detected"
+    },
+    {
+        "alert_id": "ALT005",
+        "timestamp": "2026-09-22 09:15:00",
+        "ip": "1.1.1.1",
+        "alert_type": "DNS Anomaly",
+        "description": "Unusual DNS query patterns detected"
+    }
+]
