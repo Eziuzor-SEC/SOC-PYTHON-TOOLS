@@ -9,12 +9,20 @@ import json
 from datetime import datetime
 from threat_intel import ThreatIntel
 
-ALERT_TYPE_WEIGHTS = {
+ALERT_TYPE_WEIGHTS = { 
+    "Lateral Movement": 25,
+    "Privilege Escalation": 28,
+    "Data Exfiltration": 30,
+    "Phishing": 20,
+    "Ransomware": 30,
     "Malware C2": 30,
     "Brute Force": 20,
     "Suspicious Outbound": 15,
     "Port Scan": 10,
-    "DNS Anomaly": 5
+    "DNS Anomaly": 5,
+    "Web Attack": 25,
+    "APT Group": 28,
+    "Malware": 22,
 }
 
 def load_alerts(filename):
@@ -71,7 +79,6 @@ def process_alerts(alerts):
             "severity_score": severity_score,
             "severity": severity
         })
-    
     results.sort(key=lambda x: x['severity_score'], reverse=True)
     
     return results

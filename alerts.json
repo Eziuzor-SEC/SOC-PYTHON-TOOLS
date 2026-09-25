@@ -1,37 +1,30 @@
 [
     {
-        "alert_id": "ALT001",
-        "timestamp": "2026-09-22 08:15:00",
-        "ip": "185.220.101.5",
-        "alert_type": "Brute Force",
-        "description": "Multiple failed login attempts detected"
+        "alert_id": "SOC340",
+        "timestamp": "2025-05-30T18:19:29+03:00",
+        "ip": "3.15.143.228",
+        "alert_type": "Web Attack",
+        "description": "Apache Tomcat RCE - CVE-2025-24813 serialized payload upload detected"
     },
     {
-        "alert_id": "ALT002",
-        "timestamp": "2026-09-22 08:22:00",
-        "ip": "8.8.8.8",
-        "alert_type": "Port Scan",
-        "description": "Sequential port scanning detected"
+        "alert_id": "SOC334",
+        "timestamp": "2025-01-10T18:05:32+03:00",
+        "ip": "3.144.85.113",
+        "alert_type": "Web Attack",
+        "description": "Apache Tomcat RCE - CVE-2024-50379 file upload race condition exploitation"
     },
     {
-        "alert_id": "ALT003",
-        "timestamp": "2026-09-22 08:45:00",
-        "ip": "45.155.205.233",
-        "alert_type": "Suspicious Outbound",
-        "description": "Unusual outbound traffic volume detected"
+        "alert_id": "SOC337",
+        "timestamp": "2025-03-06T07:15:00+03:00",
+        "ip": "152.89.61.96",
+        "alert_type": "APT Group",
+        "description": "Lazarus Group APT38 phishing campaign - Coinbase themed lure detected"
     },
     {
-        "alert_id": "ALT004",
-        "timestamp": "2026-09-22 09:01:00",
-        "ip": "194.26.29.156",
-        "alert_type": "Malware C2",
-        "description": "Possible command and control communication detected"
-    },
-    {
-        "alert_id": "ALT005",
-        "timestamp": "2026-09-22 09:15:00",
-        "ip": "1.1.1.1",
-        "alert_type": "DNS Anomaly",
-        "description": "Unusual DNS query patterns detected"
+        "alert_id": "SOC336",
+        "timestamp": "2025-02-04T16:18:08+03:00",
+        "ip": "84.38.130.118",
+        "alert_type": "Malware",
+        "description": "Windows OLE Zero-Click RCE CVE-2025-21298 - malicious RTF attachment detected"
     }
 ]
